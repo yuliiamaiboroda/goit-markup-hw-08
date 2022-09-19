@@ -1,0 +1,26 @@
+// utils 
+
+@import './utils/vars'; // root
+@import './utils/reset'; // global styles reset
+@import './utils/basic'; // global styles
+
+
+
+//components
+
+@import './components/header'; // styles for header
+@import './components/header-nav'; // styles for header-nav
+@import './components/header-contacts'; // styles for contacts
+@import './components/logo'; // styles for logo
+@import './components/hero'; // styles for hero
+@import './components/advances'; // styles for advances 
+@import './components/occupation'; //styles for section our occupation
+@import './components/our-team'; // styles for team`s section
+@import './components/clients'; // styles for client`s section
+@import './components/footer'; // styles for footer 
+@import './components/footer-input'; // styles for subscribe form 
+@import './components/btn-portfolio'; // styles for main buttons on portfolio page
+@import './components/portfolio-content'; // styles portfolio`s cards 
+@import './components/backdrop'; // styles for modal backdrop 
+@import './components/modal-form'; // styles for modal window
+@import './components/mobile-menu'; // styles for menu mobile version
