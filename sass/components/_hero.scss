@@ -28,12 +28,12 @@
                         background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
                             url(../images/bg/img-m@2x_1.jpg);
                     }
-                }
+                
 
                 @media screen and (min-width: 769px) {
                     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
                         url(../images/bg/Img-l_1.jpg);}
-                        
+
 
                     @media (min-device-pixel-ratio: 2),
                     (min-resolution: 192dpi),
