@@ -26,6 +26,11 @@
         @media screen and (max-width: 767px) {
             display: none;
         }
+
+         @media screen and (max-width: 1199px) {
+            font-size: 12px;
+            line-height: 1.17;
+         }
 }
 
 .header-mail-phone {
@@ -55,5 +60,18 @@
     transition-property: fill;
     transition-duration: var(--normal-duration);
     transition-timing-function: var(--normal-timing-function);
+    
+
+}
+
+@media screen and (max-width: 1199px) {
+    .icon-header-mail{
+        width: 14px;
+        height: 10px;
+    }
+    .icon-header-phone{
+        width: 10px;
+        height: 14px;
+    }
 }
 

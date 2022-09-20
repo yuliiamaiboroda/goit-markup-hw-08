@@ -1,7 +1,21 @@
 .subscribe {
-    
+    margin-top: 60px;  
+    @media screen and (min-width: 768px) {
+            width: 450px;
+            display: flex;
+            margin-top: 60px;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
     @media screen and (min-width: 1200px) {
-            margin-left: auto;;
+            margin-left: auto;
+            margin-top: 0;
+            width: 570px;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            flex-wrap: wrap;
         }
 
     &-title {
@@ -16,13 +30,22 @@
         }
 
     &-btn {
-        position: relative;
+        
         padding-top: 10px;
         padding-bottom: 10px;
-        padding-left: 28px;
-    
         width: 200px;
-
+        margin-left: auto;
+        margin-right: auto;
+        @media screen and (min-width: 768px) {
+                display: flex;
+                align-items: center;
+               
+        
+            }
+                @media screen and (min-width: 1200px) {
+                   margin-left: 12px;
+                   margin-right: 0;
+                }
     
         background-color: var(--primary-color);
         color: var(--background-text-color);
@@ -33,31 +56,41 @@
         font-size: 16px;
         line-height: 1.86;
         display: flex;
+        gap: 10px;
+        justify-content: center;
         align-items: center;
-        text-align: center;
         letter-spacing: 0.06em;
     
         border: none;
     }
 
     &-form {
-        display: flex;
-        flex-direction: column;
-        gap: 12px;
-        align-items: center;
+        
         width: 100%;
-        @media screen and (min-width: 1200px) {
-               flex-direction: row;
+        @media screen and (min-width: 768px) {
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                gap: 20px;
             }
-    }
+        @media screen and (min-width: 1200px) {
+            display: flex;
+            justify-content: flex-start;
+            flex-wrap: nowrap;
+            gap: 0;
+        }
+    
+}
+
 }
 
 
 
 .input-subscribe-mail {
-    width: 450px;
+    max-width: 450px;
+    width: 100%;
     height: 50px;
-
+    margin-bottom: 20px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
@@ -70,17 +103,25 @@
     font-size: 16px;
     line-height: 1.25;
     letter-spacing: 0.03em;
-    @media screen and (min-width: 1200px) {
-            width: 358px;
+    @media screen and (min-width: 768px) {
+            width: 450px;
+            margin-bottom: 0;
         }
+    @media screen and (min-width: 1200px) {
+        width: 358px;
+        margin-bottom: 0;
+        }
+    
 }
 
 
-.icon-send-subscribe {
-    position: absolute;
-    top: 13px;
-    right: 28px;
 
+.join-up{
+    margin-top: 60px;
+    @media screen and (min-width: 768px) {
+            margin: 0;
+        }
+    @media screen and (min-width: 1200px) {
+                       margin-left: 70px;
+                   }
 }
-
-

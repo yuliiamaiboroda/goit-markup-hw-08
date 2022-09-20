@@ -35,7 +35,7 @@
         <ul class="header-contacts">
           <li class="header-contacts-icons">
             <a href="mailto:info@devstudio.com" class="header-mail-phone">
-              <svg class="icon-header" height="12" width="16">
+              <svg class="icon-header icon-header-mail" height="12" width="16">
                 <use href="./images/icons.svg#icon-mail"></use>
               </svg>
               info@devstudio.com
@@ -43,7 +43,7 @@
           </li>
           <li class="header-contacts-icons">
             <a href="tel:+380961111111" class="header-mail-phone">
-              <svg class="icon-header" height="16" width="10">
+              <svg class="icon-header icon-header-phone" height="16" width="10">
                 <use href="./images/icons.svg#icon-tel"></use>
               </svg>
               +38 096 111 11 11
@@ -498,14 +498,13 @@
         <div class="subscribe">
           <h3 class="subscribe-title">Підпишіться на розсилку</h3>
           <form class="subscribe-form">
-            <label>
-              <input
-                type="email"
-                class="input-subscribe-mail"
-                name="subscribe-mail"
-                required
-                placeholder="E-mail"
-            /></label>
+            <input
+              type="email"
+              class="input-subscribe-mail"
+              name="subscribe-mail"
+              required
+              placeholder="E-mail"
+            />
             <button class="subscribe-btn" type="submit">
               Підписатися
               <svg class="icon-send-subscribe" width="24" height="24">

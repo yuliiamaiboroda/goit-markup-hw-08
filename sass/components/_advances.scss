@@ -8,12 +8,10 @@
             flex-wrap: wrap;
             gap: 30px;
             justify-content: center;
-
         }
 
     &__item {
-        width: 100%;
-        margin-bottom: 30px;
+        margin-bottom: 0;
         @media screen and (min-width: 768px) {
                 width: 354px;
             }
@@ -36,6 +34,10 @@
         letter-spacing: 0.03em;
         text-transform: uppercase;
         margin-bottom: 10px;
+        text-align: center;
+        @media screen and (min-width: 768px) {
+                text-align: left;
+            }
     }
 
     &__wrapper {
@@ -45,6 +47,5 @@
         justify-content: center;
         align-items: center;
         margin-bottom: 30px;
-    }
 }
-
+}

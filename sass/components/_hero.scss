@@ -7,8 +7,7 @@
     max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
-    height: 400px;
-    width: 100%;
+
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
             url(../images/bg/img-sm_1.jpg);
     
@@ -44,7 +43,6 @@
                 }
 
     @media screen and (min-width: 1200px) {
-        height: 600px;
         padding: 200px 0;   
         }
 

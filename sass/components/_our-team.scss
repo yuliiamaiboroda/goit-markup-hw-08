@@ -74,14 +74,11 @@
 }
 
 .team-content {
-    border: 1px solid #EEEEEE;
-    border-top: none;
     padding-top: 30px;
     padding-bottom: 24px;
 }
 
 .our-team-photo{
-    width: 460px;
     @media screen and (min-width:768px) {
             width: 354px;
         }
@@ -90,3 +87,4 @@
            width: 260px;
         }
 }
+
